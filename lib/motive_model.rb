@@ -1,5 +1,8 @@
-require "motive_model/version"
+require 'motion_blender'
+MotionBlender.incept
+MotionBlender.use_motion_dir
+
+require 'motive_model/version'
 
 module MotiveModel
-  # Your code goes here...
 end
